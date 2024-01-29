@@ -1,0 +1,137 @@
+/*------------Mobile version-----------*/
+
+@media screen and (min-width: 375px) and (max-width: 900px){
+    
+    /*------------wrapper-top-----------------*/
+    .bg{
+        height: 59vh;
+    }
+
+    .wrapper-top{
+        margin: 5vh 3vw;
+    }
+    .greetings{
+        width: 100%;
+        margin: 0 1vh;
+    }
+    .name{
+        font-size: 0.8em;
+        margin: 0 0;
+    } 
+    .independent{
+        position: relative;
+        top: -2.2vh;
+        font-size: 0.7em;
+        left: 38vw;
+        margin: 0 0;
+
+    }
+    .profession {
+        font-size: 1.3em;
+        top: -4vw;
+        left: 2vw;
+        margin: 1.5vh 0;
+    }
+
+    .location{
+        padding-left: 2vw;
+        top: -5vw;
+        font-size: 0.5em;
+        opacity: 0.8;
+    }
+
+    .line{
+        top: -6vh;
+        border-bottom: 1px solid rgb(68, 255, 0);
+    }
+
+     /*------------wrapper-middle-----------------*/
+    .wrapper-middle{
+        padding-left: 4vw;
+        margin: 0 5vw;
+    }
+
+    .about-me{
+        padding-top: 1vh;
+       
+    }
+    .my-history{
+        font-size: 0.2em;
+    }
+
+    img{
+        width: 100px;
+        height: 130px;
+        border-radius: 10px;
+    }
+
+
+    .line2{
+        top: -4vh;
+        border-bottom: 1px solid rgb(68, 255, 0);
+    }
+
+     /*------------wrapper-bottom-----------------*/
+
+     .wrapper-bottom{
+        font-size: 0.4em;
+    }
+
+    .skills{
+        top: -2.5vh;
+    }
+    .progress-bar {
+        width: 10vw;
+        height: 0.3vh;
+        border: 1px solid rgb(68, 255, 0);
+    }
+
+    .progress-bar-inner {
+        border: 0;
+        height: 0.3vh;
+    }
+
+    
+     /*-------------------footer------------------*/
+
+
+    .footer{        
+        top: -1vh;
+        height: 7.5vh;
+        margin: 0 10%;
+    }
+
+    .information{
+        gap: 0;
+    }
+
+    .languages th, .personal_details th, .links th {
+        font-size: 0.25em;
+    }
+
+    td{
+        
+        font-size: 0.25em;
+    }
+
+    .progress-bar2 {
+        width: 10vw;
+        height: 0.3vh;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .progress-bar-inner2 {
+        border: 0;
+        height: 0.3vh;
+        
+    }
+
+    .link_table{
+        padding-top: 3.5vh;
+    }
+
+    .lang_table{
+        padding-top: 1vh;
+    }
+
+ }

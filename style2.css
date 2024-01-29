@@ -1,0 +1,136 @@
+
+@media screen and (min-width: 390px) and (max-width: 800px){
+/* html {
+    background-image: url("img/back7.png");
+    background-size: 40%;
+} */
+
+.bg {
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: auto;
+    background-color: #0d0d0d;
+    margin: 15vh 10%;
+    border-radius: 5vw;
+    color: #bfbfbf;
+}
+
+/*-------------------Wrapper_top----------------------*/
+
+.wrapper-top {
+    height: auto;
+    width: inherit;
+    margin: 10vh 5vw;
+    font-family: "Kanit", sans-serif;
+}
+
+.greetings {
+    width: 100%;
+    margin: 2vh 0;
+    display: flex;
+    gap: 4vw; /* Уменьшено расстояние между элементами */
+}
+
+.name {
+    font-size: 1.5em; /* Уменьшен размер шрифта */
+    margin: 3vh 0;
+}
+
+.independent {
+    font-size: 1.5em;
+    margin: 0 15vw; /* Уменьшено расстояние между элементами */
+    top: -4.5vw;
+}
+
+.profession {
+    width: 70vw; /* Уменьшено ширину блока */
+    font-size: 4em; /* Уменьшен размер шрифта */
+    top: -1.5vw;
+}
+
+.block.visible {
+    transition: opacity 2s ease, transform 0.5s ease;
+}
+
+.location {
+    margin: 1.5vh 0; /* Уменьшено расстояние между элементами */
+    font-size: 1.2em; /* Уменьшен размер шрифта */
+}
+
+.line {
+    top: -3.5vh; /* Уменьшено смещение вверх */
+    border-bottom: 2px solid rgb(68, 255, 0);
+}
+
+/*----------------------Wrapper_middle--------------------------*/
+
+.wrapper-middle {
+    top: -9vw; /* Уменьшено смещение вверх */
+}
+
+.wrap {
+    width: 90%; /* Увеличено ширину блока */
+    margin: 0 5%;
+}
+
+.about-me {
+    gap: 3vw; /* Уменьшено расстояние между элементами */
+    padding-top: 3vh; /* Уменьшено верхнее поле */
+}
+
+.wrap.visible {
+    transition: opacity 2s ease, transform 0.5s ease;
+}
+
+.my-history span {
+    font-size: 1.3em; /* Уменьшен размер шрифта */
+}
+
+.my-photo {
+    width: 70%; /* Увеличено ширину блока */
+    margin: 3% 0; /* Уменьшено отступы */
+}
+
+.my-photo img {
+    border-radius: 15px; /* Уменьшено скругление углов */
+}
+
+.line2 {
+    top: -28vh; /* Уменьшено смещение вверх */
+}
+
+/*-------------------------Wrapper_Bottom---------------------*/
+
+.wrapper-bottom {
+    font-size: x-large; /* Уменьшен размер шрифта */
+}
+
+.skills {
+    top: -20vh; /* Уменьшено смещение вверх */
+    margin: 0 5%;
+}
+
+.progress-bar {
+    width: 20vw; /* Увеличено значение ширины */
+}
+
+.progress-bar2 {
+    width: 20vw; /* Увеличено значение ширины */
+}
+
+/*-------------------FOOTER---------------*/
+
+.footer {
+    top: -10vh; /* Уменьшено смещение вверх */
+    margin: 0 5%;
+}
+
+.languages th, .personal_details th, .links th {
+    font-size: 1.2rem; /* Уменьшен размер шрифта */
+}
+
+.languages td, .personal_details td, .links td {
+    font-size: 1rem; /* Уменьшен размер шрифта */
+}
+}
