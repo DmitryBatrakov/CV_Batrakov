@@ -1,6 +1,7 @@
 /*------------Mobile version-----------*/
 
-@media screen and (min-width: 375px) and (max-width: 900px){
+/* @media screen and (min-width: 801px) and (max-width: 1400px) */
+@media all and (orientation: portrait){
     
     /*------------wrapper-top-----------------*/
     .bg{
@@ -135,3 +136,5 @@
     }
 
  }
+
+ 
